@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 95%;
+    margin: 0;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailLabel, .senhaLabel {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 115%;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #c4c2c2;
+    border-width: 2px;
+    background-color: #353535;
+}
+
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin: 40px 40px 40px;
+    background-color: rgb(58, 243, 58);
+    color: white;
+    border: 50px;
+    border-radius: 6px;   
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-top: 90px;
+}
+
+.logopng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    height: 100%;
+}
+
+.submit-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 500px;
+}
+
+.submit-container {
+    margin-left: 50px;
+}
